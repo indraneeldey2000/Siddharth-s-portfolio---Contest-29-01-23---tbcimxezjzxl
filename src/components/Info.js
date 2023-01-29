@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import{useNavigate} from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 const Info = () => {
-
+const navigate = useNavigate()
 
     return (
         <div id="info-page">
